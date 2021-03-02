@@ -1,7 +1,7 @@
 <template>
   <div class="hello card">
     <header>
-      <img alt="Vue logo" src="../assets/logo.svg" />
+      <img alt="Phrase Logo" src="../assets/logo.png" />
       <h1>Phrase Workshop App</h1>
     </header>
     <div class="content">
