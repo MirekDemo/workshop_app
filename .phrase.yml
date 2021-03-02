@@ -1,0 +1,10 @@
+phrase:
+  access_token: ACCESS_TOKEN
+  project_id: PROJECT_ID
+  file_format: simple_json
+  push:
+    sources:
+      - file: ./src/locales/<locale_code>.json
+  pull:
+    targets:
+      - file: ./src/locales/<locale_code>.json
