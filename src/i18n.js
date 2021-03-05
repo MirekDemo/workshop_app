@@ -3,12 +3,14 @@ import VueI18n from "vue-i18n";
 
 import enUS from "./locales/en-US.json";
 import deDE from "./locales/de-DE.json";
+import esES from "./locales/es-ES.json";
 
 Vue.use(VueI18n);
 
 const messages = {
   "en-US": enUS,
   "de-DE": deDE,
+  "es-ES": esES
 };
 
 export default new VueI18n({
