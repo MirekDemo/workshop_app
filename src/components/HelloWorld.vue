@@ -6,16 +6,17 @@
     </header>
     <div class="content">
       <p>So far, all of this text is static. Let's change that!</p>
-      <!-- <p>{{ $t("message") }}</p> -->
+      <p>{{ $t("message") }}</p>
+      <p>{{ $t("my_key") }}</p>
     </div>
-    <!-- <div class="locale-changer">
+    <div class="locale-changer">
       <label for="locale-changer">Pick a language:</label>
       <select v-model="$i18n.locale" name="locale-changer">
         <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">
           {{ lang }}
         </option>
       </select>
-    </div> -->
+    </div>
   </div>
 </template>
 
