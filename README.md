@@ -3,7 +3,7 @@
 ## Setup
 
 For our workshop you'll need `git`,`phrase` and `node`.
-See for installation instructions:
+See these links for installation instructions:
 
 https://git-scm.com/ (this one is most likely already installed on your machine)
 
